@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<title>Tabbed Form</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="animation.js"></script>
+<script type="text/javascript" src="validation.js"></script>
+
+
+</head>
+
+<body>
+        <form name="myform" onsubmit="return validateform()">
+        
+     <ul>
+        <li class="Title">Who are you?</li>
+        <li class="fields">
+         <label>*First name:</label><br />
+         <input id="first_name" class="req" type="text" /><br />
+         <label>Middle name</label><br />
+          <input id="middle_name" type="text" /><br />
+         <label>*Last name"</label><br />
+          <input id="last_name" class="req" type="text" /><br />
+         <label>*Email</label><br />
+           <input id="Email" class="req" type="text" /><br />
+      </li>
+      <li class="Title">Where are you?</li>
+      <li class="fields">
+          <label>*City:</label><br />
+          <input id="city" class="req" type="text" /><br />
+          <label>*State:</label><br />
+                   <input id="state" class="req" type="text" /><br />
+          <label>Country:</label><br />
+                   <input id="country"  type="text" /><br />
+      </li>
+      <li class="Title">What you do?</li>
+      <li class="fields">
+       <label>*Occupation:</label><br />
+          <input id="occupation" class="req" type="text" /><br />
+          <label>Company:</label><br />
+                   <input id="company" type="text" /><br />
+          <label>Company location:</label><br />
+                   <input id="company_location" type="text" /><br />
+      </li>
+      </ul>
+      <input type="submit" value="Submit Form" />
+       
+        </form>
+</body>
+
+</html>
